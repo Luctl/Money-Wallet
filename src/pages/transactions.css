@@ -1,0 +1,43 @@
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .content {
+    padding:  10px;
+  }
+}
+.content h1 {
+  margin-bottom: 10px; /* Adjust the value to control the space */
+}
+
+h1{
+  margin-top:20px;
+  font-size: 60px;
+  font-style: bold;
+  margin-bottom: 10px;
+}
+
+p{
+  margin-bottom: 12px;
+}
+.about-us {
+  border: 10px solid #ccc;
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-top:20px;
+}
+.slider-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px; /* Adjust the height as needed */
+}
+
+.slider-image img {
+  max-width: 100%;
+  max-height: 100%;
+}
